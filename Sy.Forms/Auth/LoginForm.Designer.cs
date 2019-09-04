@@ -75,6 +75,7 @@
             this.btnGiris.TabIndex = 4;
             this.btnGiris.Text = "Giris";
             this.btnGiris.UseVisualStyleBackColor = true;
+            this.btnGiris.Click += new System.EventHandler(this.btnGiris_Click);
             // 
             // LoginForm
             // 

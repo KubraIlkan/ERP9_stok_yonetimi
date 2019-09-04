@@ -46,9 +46,9 @@ namespace Sy.Businees.Repository
 
         public int Save()
         {
-            throw new NotImplementedException();
+            return _context.SaveChanges();
         }
-
+        
         public int Update(TEntity entity)
         {
             _table.AddOrUpdate(entity);
